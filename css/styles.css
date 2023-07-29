@@ -1,0 +1,171 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/play-v17-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/play-v17-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2');
+}
+
+:root {
+  --beauty-landing-2-c-1: #011c44;
+  --beauty-landing-2-c-3: #4a4a4a;
+  --beauty-landing-22: #2b7fff;
+  --beauty-landing-2-background: #fff;
+  --beauty-landing-25: #747272;
+}
+
+/* Body`s Global CSS */
+body {
+  color: var(--beauty-landing-2-c-1);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Base */
+ul {
+  list-style-type: none;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Buttons */
+
+.button-order-call {
+  border-radius: 32px;
+  border: 2px solid #2b7fff;
+  font-weight: 600;
+}
+
+.button-order-call:hover {
+  color: var(--beauty-landing-2-background);
+  background: var(--beauty-landing-22);
+}
+
+/* Header */
+.header-link {
+  color: var(--beauty-landing-2-c-1);
+  text-decoration: none;
+}
+
+.header-link:hover {
+  color: var(--beauty-landing-22);
+  font-weight: 700;
+}
+
+/* Hero */
+
+.hero-title {
+  color: var(--beauty-landing-22);
+  font-family: Play;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 0.8;
+}
+
+.hero-text {
+  color: var(--beauty-landing-2-c-3);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Sections */
+
+.section-title {
+  color: var(--beauty-landing-2-c-1);
+  font-family: Play, sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.section-title .accent {
+  color: var(--beauty-landing-22);
+  font-family: Play, sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.section-text {
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+.section-text .accent {
+  font-weight: 600;
+}
+
+.advantages-item {
+  color: #000;
+  line-height: 1.3;
+}
+
+.our-procedures-item {
+  color: var(--beauty-landing-2-background);
+  font-size: 22px;
+  line-height: 1.1;
+}
+
+.contacts-text {
+  color: var(--beauty-landing-2-background);
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.contacts-text .accent {
+  color: var(--beauty-landing-22);
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.under-button-text {
+  color: var(--beauty-landing-25);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.under-button-text .accent {
+  text-decoration-line: underline;
+}
+
+/* Footer */
+
+.footer-link {
+  color: var(--beauty-landing-2-background);
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.address-copyright {
+  color: var(--beauty-landing-25);
+  font-size: 13px;
+  font-weight: 400;
+}
